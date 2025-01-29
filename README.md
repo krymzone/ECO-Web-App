@@ -1,42 +1,88 @@
-# Roadmap: Eco-Conscious Web Application for Recycling Spot Discovery, Waste Reporting, and Environmental Monitoring
-## Phase 1: Core Features Development
-### 1.1 Recycling Point Discovery
-- [ ] Design and implement a map-based interface for discovering nearby recycling points.
-- [ ] Integrate a database of recycling locations with categories for different waste types.
-- [ ] Add search and filtering functionality for recycling points.
+# Eco-Conscious Web Application: Roadmap
 
-### 1.2 Environmental Monitoring Dashboard
-- [ ] Develop a dashboard displaying:
-  - Air quality data (e.g., AQI, pollutants).
-  - Water quality information (e.g., pH levels, contaminants).
-  - Drinkable water availability status.
-- [ ] Integrate APIs for real-time environmental data (e.g., OpenWeatherMap, AirVisual).
-- [ ] Add data visualization (charts, graphs) for easy interpretation.
+This roadmap outlines the development plan for the **Eco-Conscious Web Application for Recycling Spot Discovery, Waste Reporting, and Environmental Monitoring**. The project is divided into phases, with each phase focusing on specific features and milestones.
 
-### 1.3 Waste Reporting Page
-- [ ] Create a form-based interface for users to report areas affected by debris.
-- [ ] Include fields for:
-  - Location (map pin or address input).
-  - Description of the issue.
-  - Accessibility details (e.g., reachable by vehicle).
-- [ ] Implement a notification system for local authorities or relevant stakeholders.
+---
 
-## Phase 2: User Account Management
-- [ ] Develop a user authentication system:
-  - Account creation with email/password.
-  - Guest login functionality.
-- [ ] Implement a profile page for registered users to view their submitted reports.
-- [ ] Add optional preferences for notifications or data display settings.
+## Phase 1: Project Setup and Planning
+- **Milestone 1.1**: Define project scope and requirements.
+  - Finalize features: Recycling spot discovery, pollution information dashboard, waste reporting, and user authentication.
+  - Create wireframes and mockups for the web application.
+- **Milestone 1.2**: Set up the development environment.
+  - Choose a tech stack (e.g., React.js for frontend, Node.js/Express for backend, PostgreSQL/MongoDB for database).
+  - Initialize the GitHub repository and set up version control.
+  - Create a basic project structure.
 
-## Phase 3: Enhancements and Optimization
-- [ ] Optimize web app performance and scalability.
-- [ ] Add mobile responsiveness for a seamless experience across devices.
-- [ ] Implement localization support (e.g., multiple languages).
+---
 
-## Phase 4: Testing and Deployment
-- [ ] Fix bugs and refine user interface.
+## Phase 2: Core Features Development
+### Recycling Spot Discovery
+- **Milestone 2.1**: Implement a map interface for recycling spot discovery.
+  - Integrate a map API (e.g., Google Maps, Mapbox).
+  - Add markers for recycling points with relevant details (e.g., address, type of materials accepted).
+- **Milestone 2.2**: Enable search and filtering functionality.
+  - Allow users to search for recycling points by location or material type.
+  - Add filters for accessibility (e.g., reachable by vehicle).
 
-## Phase 5: Future Features
-- [ ] Add gamification elements to encourage eco-friendly behaviors (e.g., badges for recycling contributions).
-- [ ] Enable real-time collaboration between users and authorities for waste cleanup drives.
-- [ ] Expand data sources for enhanced pollution monitoring.
+### Pollution Information Dashboard
+- **Milestone 2.3**: Integrate APIs for environmental data.
+  - Fetch air quality and water quality data from public APIs (e.g., OpenWeatherMap, AQICN).
+  - Display data in a user-friendly dashboard with charts and indicators.
+- **Milestone 2.4**: Add water drinkability information.
+  - Include a feature to indicate whether water in a specific area is drinkable.
+
+### Waste Reporting System
+- **Milestone 2.5**: Create a waste reporting form.
+  - Allow users to report areas affected by debris.
+  - Include fields for details (e.g., location, type of waste, accessibility by vehicle).
+- **Milestone 2.6**: Implement backend functionality for waste reports.
+  - Store reports in the database and allow local authorities to access them.
+
+---
+
+## Phase 3: User Authentication and Authorization
+- **Milestone 3.1**: Implement user accounts.
+  - Allow users to create accounts and log in.
+  - Include guest login functionality for users who don’t want to create accounts.
+- **Milestone 3.2**: Add role-based access control.
+  - Differentiate between regular users and local authorities (e.g., authorities can view and manage waste reports).
+
+---
+
+## Phase 4: Testing and Optimization
+- **Milestone 4.1**: Conduct unit and integration testing.
+  - Test individual components and features for functionality and performance.
+- **Milestone 4.2**: Optimize the application.
+  - Improve load times and responsiveness.
+  - Ensure compatibility across different devices and browsers.
+
+---
+
+## Phase 5: Documentation and Finalization
+- **Milestone 5.1**: Write comprehensive documentation.
+  - Include a user guide and developer documentation.
+  - Document the API endpoints and database schema.
+- **Milestone 5.2**: Prepare for submission.
+  - Finalize the thesis report.
+  - Create a presentation for the thesis defense.
+
+---
+
+## Phase 6: Deployment and Maintenance
+- **Milestone 6.1**: Deploy the web application.
+  - Host the application on a cloud platform (e.g., Heroku, AWS, Vercel).
+  - Set up a custom domain if necessary.
+- **Milestone 6.2**: Plan for future updates.
+  - Gather user feedback and identify areas for improvement.
+  - Add new features or expand functionality based on user needs.
+
+---
+## Technologies
+- **Frontend**: React.js, HTML, CSS, JavaScript
+- **Backend**: Node.js
+- **Database**: PostgreSQL or MongoDB
+- **APIs**: Google Maps/Mapbox, OpenWeatherMap, AQICN
+
+---
+## License
+This project is licensed under the MIT License.
